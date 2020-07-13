@@ -113,17 +113,22 @@ $font-family-sans-serif: "gotham-light", "gotham-bold", blinkmacsystemfont, "Seg
 
 iframe {
   min-height: 350px;
+  border: 0;
 }
 
 /* Item Cards */
 
-.card-wrapper {
-  #home {
+#home {
+  .card-wrapper {
     max-height: 725px;
     overflow-y: hidden;
   }
+}
 
-  #results {
+#results {
+  .card-wrapper {
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -132,8 +137,13 @@ iframe {
   background-color: white;
   margin: 10px;
   width: 200px;
+  height: 350px;
   padding: 5px;
   box-shadow: 0 0 10px 0 $black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-img {
