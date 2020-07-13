@@ -10009,11 +10009,10 @@ iframe {
 }
 
 /* Item Cards */
-.card-wrapper {
+.card-wrapper #home {
   max-height: 725px;
   overflow-y: hidden;
 }
-
 .item-card {
   position: relative;
   background-color: white;
@@ -10084,7 +10083,7 @@ iframe {
   justify-content: space-around;
   padding: 0 15px;
   color: #000;
-  font-family: gotham-bold;
+  font-family: gotham-bold, sans-serif;
 }
 .affiliates a img {
   width: 50px;

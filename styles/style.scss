@@ -118,8 +118,13 @@ iframe {
 /* Item Cards */
 
 .card-wrapper {
-  max-height: 725px;
-  overflow-y: hidden;
+  #home {
+    max-height: 725px;
+    overflow-y: hidden;
+  }
+
+  #results {
+  }
 }
 
 .item-card {
@@ -197,7 +202,7 @@ iframe {
     justify-content: space-around;
     padding: 0 15px;
     color: $black;
-    font-family: gotham-bold;
+    font-family: gotham-bold, sans-serif;
 
     img {
       width: 50px;
