@@ -1,14 +1,193 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link rel="stylesheet" href="bootstrap-4.5.0/dist/css/bootstrap.css"> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="icon" type="image/png" href="images/TCCC-logo.png">
-  <title>Tactical Medical Supply - Home</title>
+  <title>Tactical Medical Center - Home</title>
 </head>
-  <body>
 
-  </body>
+<body>
+  <header class="container-fluid bg-light">
+    <nav class="row text-nowrap px-3">
+      <a href="https://www.naemt.org/education/naemt-tccc" class="nav-logo d-flex align-items-center col-4 col-md-2 px-0"><img class="m-2" src="images/TCCC-logo.png" alt="">
+      </a>
+      <div class="col-4 pl-5 col-md-6 ml-md-n4 pl-md-4 d-flex justify-content-center align-items-center text-wrap">
+        <h1 class="d-md-none helvet-bld">TMC</h1>
+        <h1 class="d-none d-md-block helvet-bld">Tactical Medical Center</h1>
+      </div>
+      <div class="navbar navbar-expand-md col-4 mr-md-n5 navbar-light justify-content-end">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">About TCCC</a>
+            <a href="">Shopping Cart</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="search-banner text-white bg-dark" id="search-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 px-0">
+          <div class="card-body pb-1">
+            <div class="row">
+              <div class="col-4 d-none d-md-block">
+                <div class="form-group">
+                  <select class="form-control">
+                    <option selected>Affiliation</option>
+                    <option>Military</option>
+                    <option>Medical Professional</option>
+                    <option>Civilian</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-4 d-none d-md-block">
+                <div class="form-group ">
+                  <select class="form-control">
+                    <option selected>Size</option>
+                    <option>Full Kit</option>
+                    <option>Restock</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-4 d-none d-md-block">
+                <div class="form-group ">
+                  <select class="form-control">
+                    <option selected>Category</option>
+                    <option>Sale Items</option>
+                    <option>Massive Bleeding</option>
+                    <option>Airway</option>
+                    <option>Respiration</option>
+                    <option>Circulation</option>
+                    <option>Hypothermia</option>
+
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search ......" aria-label="Recipient's username">
+                  <div class="input-group-append">
+                    <span class="input-group-text"><a href="results.html"><i class="fa fa-search"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <main class="bg-danger">
+
+    <div class="card-wrapper d-none d-md-flex flex-wrap col-4 float-right">
+      <div class="item-card mx-auto sale">
+        <img class="card-img" src="images/bleed-control.png" alt="">
+        <h2 class="item-name goth-bld">Bleeding Control Kit</h2>
+        <p class="item-price">$101.00
+          <b class="sale-price">$89.99</b></p>
+      </div>
+      <div class="item-card mx-auto sale">
+        <img class="card-img" src="images/sof4-tq.png" alt="">
+        <h2 class="item-name goth-bld">SOF&reg; Tourniquet<br />4<sup>th</sup> Generation</h2>
+        <p class="item-price">$35.00
+          <b class="sale-price">$25.99</b></p>
+      </div>
+      <div class="item-card mx-auto sale d-none d-xl-block">
+        <img class="card-img" src="images/cas-card.png" alt="">
+        <h2 class="item-name goth-bld">Casualty Card</h2>
+        <p class="item-price">$1.25
+          <b class="sale-price">$0.99</b></p>
+      </div>
+      <div class="item-card mx-auto sale d-none d-xl-block">
+        <img class="card-img" src="images/pneumo-needle.png" alt="">
+        <h2 class="item-name goth-bld">TPAK</h2>
+        <p class="item-price">$10.56
+          <b class="sale-price">$8.99</b></p>
+      </div>
+    </div>
+
+    <div class="row col-8 p-2 pl-4 d-none d-md-flex">
+      <div class="video d-flex flex-column">
+        <iframe src="https://www.youtube.com/embed/ecrwkO8yVAI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <small><strong>Credit for this video to the guys at <a href="https://www.youtube.com/channel/UC2D3Qvv8ubBT4Fv1_Ff783Q">Tier 1 Group</a></strong></small>
+        <p class="my-2">When Operation Enduring Freedom (OEF) and Operation Iraqi Freedom (OIF) started in the early 2000's TCCC was still being vetted and implementation throughout the military was slow. The one place it was being implemented the
+          strongest was
+          with the 75th Ranger Regiment. Throughout OEF and OIF, despite seeing heavy combat and sustaining heavy casualties, the Rangers had the lowest percentage of soldiers killed in action in the military. Their strong adoption and adherence to
+          TCCC guidelines was paying off.</p>
+        <p class="goth-bld text-right"><strong> - Rangers Lead The Way</strong></p>
+      </div>
+    </div>
+    <div class="row col-md-8 py-5 flex-md-row mx-0 pt-md-0">
+      <section class="col-12 col-md-2 icon-links d-md-none">
+        <a href="results.html"><img src="images/sale-icon.png" alt="Sales">
+          <p class="small">Sale Items</p>
+          <p class="big">Sale</p>
+        </a>
+      </section>
+      <section class="col-12 col-md-2 icon-links">
+        <a href="results.html"><img src="images/mass-bleed-icon.png" alt="Massive Bleeding">
+          <p class="small">Massive Bleeding</p>
+          <p class="big">M</p>
+        </a>
+      </section>
+      <section class="col-12 col-md-2 icon-links">
+        <a href="results.html"><img src="images/airway-icon.png" alt="Airway">
+          <p class="small">Airway</p>
+          <p class="big">A</p>
+        </a>
+      </section>
+      <section class="col-12 col-md-2 icon-links">
+        <a href="results.html"><img src="images/respir-icon.png" alt="Circulation">
+          <p class="small">Respiration</p>
+          <p class="big">R</p>
+        </a>
+      </section>
+      <section class="col-12 col-md-2 icon-links">
+        <a href="results.html"><img src="images/circul-icon.png" alt="Respiration">
+          <p class="small">Circulation</p>
+          <p class="big">C</p>
+        </a>
+      </section>
+      <section class="col-12 col-md-2 icon-links">
+        <a href="results.html"><img src="images/hypotherm-icon.png" alt="Hypothermia">
+          <p class="small">Hypothermia</p>
+          <p class="big">H</p>
+        </a>
+      </section>
+    </div>
+
+  </main>
+
+    <footer class="card text-center rounded-0 text-white bg-dark">
+      <div class="card-header">
+        Tactical Medical Center
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </footer>
+
+</body>
+
+
+
+
+
 </html>
