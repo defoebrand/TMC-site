@@ -186,3 +186,21 @@ iframe {
   transform: rotate(-45deg);
   font-size: 15px;
 }
+
+/* Footer */
+
+.affiliates {
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15px;
+    color: $black;
+    font-family: gotham-bold;
+
+    img {
+      width: 50px;
+    }
+  }
+}

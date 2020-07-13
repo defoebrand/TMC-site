@@ -10076,4 +10076,18 @@ iframe {
   font-size: 15px;
 }
 
+/* Footer */
+.affiliates a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 15px;
+  color: #000;
+  font-family: gotham-bold;
+}
+.affiliates a img {
+  width: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
